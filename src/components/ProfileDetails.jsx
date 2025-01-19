@@ -30,11 +30,7 @@ const ProfileDetails = () => {
     <div className="profile-details">
       <div className="profile-card">
         <div className="profile-card-left">
-          <img
-            src={profile.image || defaultProfileImage}
-            alt={profile.name}
-            className="profile-image"
-          />
+        <img src="/default-avatar.png" alt="Default Profile" />
         </div>
         <div className="profile-card-right">
           <h2>{profile.name}</h2>

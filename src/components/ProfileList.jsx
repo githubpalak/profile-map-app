@@ -41,11 +41,7 @@ const ProfileList = () => {
           filteredProfiles.map((profile) => (
             <div className="profile-card" key={profile.id}>
               <div className="profile-card-left">
-                <img
-                  src={profile.image || defaultProfileImage}
-                  alt={profile.name}
-                  className="profile-image"
-                />
+              <img src="/default-avatar.png" alt="Default Profile" />
               </div>
               <div className="profile-card-right">
                 <h3>{profile.name}</h3>
