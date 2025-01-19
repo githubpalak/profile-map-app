@@ -1,0 +1,83 @@
+.profile-list {
+  padding: 20px;
+}
+
+.profile-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.profile-card {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  align-items: center; /* Align items center vertically */
+}
+
+.profile-card-left {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-card-right {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; /* Align text vertically */
+  justify-content: center;
+}
+
+.profile-card-right h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  margin-bottom: 10px; /* Add space between name and description */
+  color: #333; /* Make sure the text is visible */
+}
+
+.profile-card-right p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #666; /* Lighter color for description */
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.profile-details .profile-card {
+  display: flex;
+  gap: 20px;
+}
+
+.profile-details .profile-card-left {
+  flex-shrink: 0;
+}
+
+.profile-details .profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}

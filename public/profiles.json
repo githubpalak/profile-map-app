@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "image": "https://via.placeholder.com/150",
+    "description": "Software Developer at Infosys",
+    "address": "123, MG Road, Bengaluru, Karnataka",
+    "latitude": 12.9716,
+    "longitude": 77.5946
+  },
+  {
+    "id": 2,
+    "name": "Priya Gupta",
+    "image": "https://via.placeholder.com/150",
+    "description": "Product Manager at Zomato",
+    "address": "456, Banjara Hills, Hyderabad, Telangana",
+    "latitude": 17.3854,
+    "longitude": 78.4867
+  },
+  {
+    "id": 3,
+    "name": "Ravi Patel",
+    "image": "https://via.placeholder.com/150",
+    "description": "Data Scientist at TCS",
+    "address": "789, Nehru Place, Delhi",
+    "latitude": 28.6139,
+    "longitude": 77.2090
+  },
+  {
+    "id": 4,
+    "name": "Ananya Iyer",
+    "image": "https://via.placeholder.com/150",
+    "description": "Graphic Designer at Wipro",
+    "address": "101, Kotturpuram, Chennai, Tamil Nadu",
+    "latitude": 13.0827,
+    "longitude": 80.2707
+  },
+  {
+    "id": 5,
+    "name": "Vikram Singh",
+    "image": "https://via.placeholder.com/150",
+    "description": "UI/UX Designer at Flipkart",
+    "address": "202, Juhu Beach, Mumbai, Maharashtra",
+    "latitude": 19.0760,
+    "longitude": 72.8777
+  },
+  {
+    "id": 6,
+    "name": "Neha Verma",
+    "image": "https://via.placeholder.com/150",
+    "description": "Marketing Executive at HDFC Bank",
+    "address": "303, Galleria Market, Gurgaon, Haryana",
+    "latitude": 28.4595,
+    "longitude": 77.0266
+  },
+  {
+    "id": 7,
+    "name": "Amit Kumar",
+    "image": "https://via.placeholder.com/150",
+    "description": "Machine Learning Engineer at Accenture",
+    "address": "404, C G Road, Ahmedabad, Gujarat",
+    "latitude": 23.0225,
+    "longitude": 72.5714
+  },
+  {
+    "id": 8,
+    "name": "Sanya Reddy",
+    "image": "https://via.placeholder.com/150",
+    "description": "HR Specialist at Deloitte",
+    "address": "505, Brigade Road, Bengaluru, Karnataka",
+    "latitude": 12.9716,
+    "longitude": 77.5946
+  },
+  {
+    "id": 9,
+    "name": "Rohit Desai",
+    "image": "https://via.placeholder.com/150",
+    "description": "Financial Analyst at ICICI Bank",
+    "address": "606, Salt Lake, Kolkata, West Bengal",
+    "latitude": 22.5726,
+    "longitude": 88.3639
+  },
+  {
+    "id": 10,
+    "name": "Sanya Kapoor",
+    "image": "https://via.placeholder.com/150",
+    "description": "Web Developer at Paytm",
+    "address": "707, Connaught Place, New Delhi",
+    "latitude": 28.6340,
+    "longitude": 77.2196
+  }
+]
