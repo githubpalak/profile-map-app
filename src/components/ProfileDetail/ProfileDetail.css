@@ -1,0 +1,141 @@
+.profile-detail {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.profile-detail-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.back-button, .map-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button {
+  background-color: #7f8c8d;
+  color: white;
+}
+
+.back-button:hover {
+  background-color: #6c7a7d;
+}
+
+.map-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.map-button:hover {
+  background-color: #27ae60;
+}
+
+.profile-detail-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.profile-detail-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  border: 5px solid #f5f7fa;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-detail-info {
+  flex: 1;
+}
+
+.profile-detail-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.profile-detail-description {
+  font-size: 16px;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.profile-detail-contact, 
+.profile-detail-skills, 
+.profile-detail-interests {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.profile-detail-contact h3, 
+.profile-detail-skills h3, 
+.profile-detail-interests h3 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 5px;
+}
+
+.profile-detail-contact p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.skills-list, .interests-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag, .interest-tag {
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.interest-tag {
+  background-color: #9b59b6;
+}
+
+@media (min-width: 768px) {
+  .profile-detail-content {
+    flex-direction: row;
+    gap: 30px;
+  }
+  
+  .profile-detail-image {
+    margin: 0;
+  }
+  
+  .profile-detail-name,
+  .profile-detail-description {
+    text-align: left;
+  }
+}
