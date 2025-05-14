@@ -3,6 +3,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  position: relative;
 }
 
 .map-header {
@@ -12,6 +13,20 @@
   padding: 15px;
   background-color: #f5f7fa;
   border-bottom: 1px solid #ecf0f1;
+}
+
+.back-button {
+  padding: 8px 12px;
+  background-color: #e7e7e7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #d5d5d5;
 }
 
 .map-title {
@@ -26,10 +41,16 @@
   border-bottom: 1px solid #ecf0f1;
 }
 
+.map-address p {
+  margin: 0;
+}
+
 .map-container {
   height: 500px;
+  width: 100%;
   position: relative;
   background-color: #e6e6e6;
+  z-index: 1; /* Ensure proper stacking context */
 }
 
 .map-placeholder {
@@ -43,65 +64,14 @@
   background-color: #f5f7fa;
 }
 
-.map-note {
-  margin-top: 20px;
-  font-style: italic;
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #f5f7fa;
+  font-size: 16px;
   color: #7f8c8d;
-}
-
-.map-marker {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: #e74c3c;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  z-index: 2;
-}
-
-.map-marker::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(231, 76, 60, 0.3);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: translate(-50%, -50%) scale(0.5);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(-50%, -50%) scale(1.5);
-    opacity: 0;
-  }
-}
-
-.marker-info {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translateX(-50%);
-  background-color: white;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 3;
-  min-width: 200px;
-}
-
-.marker-info strong {
-  display: block;
-  margin-bottom: 5px;
 }
 
 .coords-info {
@@ -113,6 +83,7 @@
   border-radius: 4px;
   font-size: 12px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 2; /* Ensure it's above the map */
 }
 
 .coords-info p {
