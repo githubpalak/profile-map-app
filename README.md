@@ -78,6 +78,6 @@ Feel free to connect if you have questions or suggestions:
 
 Palak P. Chandak
 📧 palak.chandak@example.com
-🔗 LinkedIn
+🔗 [LinkedIn](https://www.linkedin.com/in/palak-chandak-32a250256/)
 
 Made with ❤️ using React & Leaflet
